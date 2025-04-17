@@ -1,3 +1,26 @@
-*.pyc
-__pycache__/
+# 🔐 Secrets & Keys
+*.key
+*.pem
+id_rsa
 .env
+
+# 🚫 Personal Data
+/user_data/
+/logs/
+/private_notes/
+
+# 🧠 AI Model Stuff
+*.ckpt
+*.pt
+*.bin
+__pycache__/
+
+# 🛠️ VSCode & Editor Stuff
+.vscode/
+*.swp
+.DS_Store
+
+# 📦 Node & Python
+node_modules/
+*.pyc
+
